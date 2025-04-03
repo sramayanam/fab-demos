@@ -25,7 +25,7 @@ $ pip install ms-fabric-cli
 1. Clone the repository and jump to demo folder
 2. Deploy demo
     ```console
-    $ ./fab-cli-tutorial-rti/scripts/setup.sh --capacity-name <capacity_name> --postfix 87
+    $ ./fab-cli-tutorial-lakehouse/scripts/setup.sh --capacity-name <capacity_name> --postfix 87
     ```
 
 **Deploy using GitHub actions**
