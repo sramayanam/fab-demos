@@ -6,7 +6,7 @@ on:
       capacity_name:
         description: "Fabric capacity name"
         required: true
-        default: "Trial-20240216T095351Z-aiYznZSl4kS24GSzM6Yejw"
+        default: "aaaorg-it"
       spn_auth_enabled:
         description: "SPN deployment"
         required: true
@@ -14,11 +14,11 @@ on:
       upn_objectid:
         description: "ObjectId of the user (for SPN deployment)"
         required: true
-        default: "395d4722-e034-4fe5-a95c-525d5b0adeeb"
+        default: "dfc3d2cb-c843-412f-acb4-e8706989aab2"
       postfix:
         description: "Postfix for workspace name"
         required: false
-        default: "01"
+        default: "00"
 
 jobs:
   deploy-demo:
