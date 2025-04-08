@@ -6,7 +6,7 @@ on:
       capacity_name:
         description: "Fabric capacity name"
         required: true
-        default: "aaaorg-it"
+        default: "aaaorgfabric"
       spn_auth_enabled:
         description: "SPN deployment"
         required: true
